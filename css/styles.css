@@ -167,7 +167,7 @@ img {
   top: 100px;
   left: 25%;
   width: 50%;
-  background: var(--bg);
+  background: var(--comp);
   border-radius: var(--bdr);
   border: var(--bd1);
   z-index: 200;
