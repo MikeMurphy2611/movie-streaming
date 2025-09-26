@@ -1,0 +1,195 @@
+@media (max-width: 1250px) {
+  /**
+   * hero section .section
+   */
+  .hero {
+    padding: 100px 0 0 20px;
+  }
+
+  /*h1*/ 
+  .hero__heading {
+    font-size: var(--fonts50);
+  }
+
+  /*p*/
+  .hero__para {
+    width: 650px;
+    max-height: 85px;
+  }
+
+  .heroIntroBtn {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1120px) {
+    /**
+   * hero section
+   */
+  /*h1*/ 
+  .hero__heading {
+    font-size: var(--fonts30);
+  }
+
+  /*p*/
+  .hero__para {
+    width: 60%;
+    max-height: 45px;
+    font-size: var(--fonts12);
+  }
+
+  .heroIntroBtn {
+    width: 150px;
+    height: 40px;
+  }
+
+  /**
+   * movies section .section
+   */
+  .movies {
+    margin-top: -150px;
+  }
+
+  .review__img {
+    width: 100px;
+  }
+
+  .reviewContent {
+    width: calc(100% - 110px);
+  }
+
+  .review__para {
+    max-height: 120px;
+  }
+}
+
+@media (max-width: 925px) {
+  .nav__link {
+    display: none;
+  }
+
+  /**
+   * registration .div
+   */
+  .registration {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  /**
+    * hero section .section
+    */
+  .hero {
+    height: 500px;
+    aspect-ratio: unset;
+  }
+
+  .hero__img {
+    object-fit: fill;
+  }
+
+  /*a movie container*/
+  .movieCard {
+    width: calc((100% - 60px) / 4);
+  }
+
+  .reviewCard {
+    width: calc((100% - 40px) / 2);
+  }
+}
+
+@media (max-width: 600px) {
+  /**
+   * header
+   */
+  .header {
+    padding: 10px;
+    height: 60px;
+  }
+
+  .logo__img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .searchMenuAccount  {
+    width: calc(100% - 40px);
+  }
+
+  /*form*/
+  .searchForm {
+    width: calc(100% - 60px - 20px);
+  }
+
+  /*.nav*/
+  .headerNav, .searchMenuAccount {
+    gap: 10px;
+  }
+
+  /**
+   * registration .div
+   */
+  .registration {
+    top: 70px;
+    left: 10px;
+    width: calc(100% - 20px);
+    max-height: calc(100% - 70px);
+    padding: 50px 10px 10px 10px;
+  }
+
+  /*form*/
+  .registerForm {
+    width: calc(100%);
+  }
+
+  .heroIntroBtns {
+    gap: 10px;
+  }
+
+  .heroIntroBtn {
+    width: 100px;
+    font-size: var(--fonts12);
+  }
+
+  /**
+   * movies section .section
+   */
+  .movies {
+    padding: 0 10px;
+    margin-top: -200px;
+  }
+
+  .movieCards {
+    gap: 10px;
+  }
+  
+  /*a movie container*/
+  .movieCard {
+    width: calc((100% - 20px) / 3);
+  }
+
+  .movie__name {
+    font-size: var(--fonts12);
+    max-height: 30px;
+    overflow: hidden;
+  }
+
+  .footerFeatures:nth-child(1) {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 450px) {
+  .reviewCards {
+    gap: 10px;
+    flex-direction: column;
+  }
+  
+  .reviewCard {
+    width: 100%;
+  }
+
+}

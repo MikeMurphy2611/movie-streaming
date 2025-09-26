@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="a website streaming movie"/>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/media.css" />
+  <link rel="icon" type="image" href="./images/logo.jpg"/>
+  <title>Movie Streaming</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="headerNav">
+      <img class="big__icon logo__img" src="./images/logo.jpg"/>
+      <a class="nav__link">MOVIES</a>
+      <a class="nav__link">SERIES</a>
+      <a class="nav__link">POPULAR</a>
+      <a class="nav__link">CATEGORIES</a>
+      <a class="nav__link">BLOG</a>
+    </nav>
+
+    <div class="searchMenuAccount">
+      <form class="searchForm">
+        <input type="search" class="search__input" placeholder="Movie's name"/>
+        <buton class="icon searchBtn"><img class="icon search__img" src="./images/icons/search.png" alt="search"/></buton>
+      </form>
+      <button class="menuBtn"><img class="icon menu__img" src="./images/icons/menu.png" alt="menu"/></button>
+      <button class="accountBtn"><img class="icon user__img" src="./images/icons/user.png" alt="account"/></button>
+    </div>
+  </header>
+
+  <div class="registration">
+    <button class="cancelBtn">
+      <img class="icon cancel__img" src="./images/icons/cancel.png" alt="cancel"/>
+    </button>
+    
+    <form class="registerForm">
+      <button class="registerBtn">
+        <img class="small__icon google__img" src="./images/icons/google.png" alt="google"/>
+        Sign up with Google
+      </button>
+      <button class="registerBtn">
+        <img class="small__icon facebook__img" src="./images/icons/facebook.png" alt="facebook"/>
+        Sign up with Facebook
+      </button>
+      <div class="separation"><h6 class="separation__or">Or</h6></div>
+      <div class="inputContainer">
+        <input class="register__input" type="text" placeholder="Name or nickname" id="name-input" required/>
+      </div>
+      <div class="inputContainer">
+        <input class="register__input" type="email" placeholder="Email" id="email-input" required/>
+      </div>
+      <div class="inputContainer">
+        <input class="register__input" type="password" placeholder="Password" id="password-input" required/>
+      </div>
+      <button class="registerBtn">
+        Create account
+      </button>
+    </form>
+    <div class="otherOption">
+      Already have an account? <button class="loginBtn">Login</button>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="hero">
+      <div class="heroBanners">
+        <div class="bannerCover"></div>
+        <div class="heroBanner">
+          <img class="hero__img" src="./images/banners/banner2.jpg" alt="banner"/>
+          <img class="hero__img" src="./images/banners/banner1.jpg" alt="banner"/>
+          <img class="hero__img" src="./images/banners/banner3.jpg" alt="banner"/>
+          <img class="hero__img" src="./images/banners/banner5.jpg" alt="banner"/>
+          <img class="hero__img" src="./images/banners/banner7.jpg" alt="banner"/>
+        </div>
+
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+
+      <div class="heroIntro">
+        <h1 class="hero__heading">5CM/S</h1>
+        <p class="hero__para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div class="heroIntroBtns">
+          <button class="heroIntroBtn">WATCH NOW</button>
+          <button class="heroIntroBtn">TRAILER</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="movies">
+      <div class="moviesTheme">
+        <h2 class="movie__heading">RECOMMEND FOR YOU</h2>
+        <div class="movieCards">
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster1.jpg" alt="cover"/>
+            <div class="movie__name">
+              The boy and The heron
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster2.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              Your name
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster3.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              5 cm/s
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster4.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              Millennium actress
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster7.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              Spirited away
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="moviesTheme">
+        <h2 class="movie__heading">POPULAR</h2>
+        <div class="movieCards">
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster8.jpg" alt="cover"/>
+            <div class="movie__name">
+              Princess Mononoke
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster9.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              Howl's the moving castle
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster10.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              The garden of words
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster11.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              Suzume
+            </div>
+          </div>
+
+          <div class="movieCard">
+            <img class="movie__img" src="./images/covers/poster12.jpg" alt="cover"/>
+
+            <div class="movie__name">
+              Weathering with you
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="moviesReviews">
+        <h2 class="review__heading">REVIEWS</h2>
+
+        <div class="reviewCards">
+          <div class="reviewCard">
+            <img class="review__img" src="./images/covers/poster16.jpg" alt="cover"/>
+            <div class="reviewContent">
+              <h3 class="reviewTitle">Kiki's delivery service</h3>
+              <p class="review__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="reviewBtn">
+                SEE MORE <img class="icon direct__arrow" src="./images/icons/direct-arrow.png" alt="see more..."/>
+              </button>
+            </div>
+          </div>
+
+          <div class="reviewCard">
+            <img class="review__img" src="./images/covers/poster17.jpg" alt="cover"/>
+            <div class="reviewContent">
+              <h3 class="reviewTitle">Whisper of the heart</h3>
+              <p class="review__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="reviewBtn">
+                SEE MORE <img class="icon direct__arrow" src="./images/icons/direct-arrow.png" alt="see more..."/>
+              </button>
+            </div>
+          </div>
+
+          <div class="reviewCard">
+            <img class="review__img" src="./images/covers/poster18.jpg" alt="cover"/>
+            <div class="reviewContent">
+              <h3 class="reviewTitle">Ponyo</h3>
+              <p class="review__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="reviewBtn">
+                SEE MORE <img class="icon direct__arrow" src="./images/icons/direct-arrow.png" alt="see more..."/>
+              </button>
+            </div>
+          </div>
+
+          <div class="reviewCard">
+            <img class="review__img" src="./images/covers/poster19.jpg" alt="cover"/>
+            <div class="reviewContent">
+              <h3 class="reviewTitle">Porco Rosso</h3>
+              <p class="review__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="reviewBtn">
+                SEE MORE <img class="icon direct__arrow" src="./images/icons/direct-arrow.png" alt="see more..."/>
+              </button>
+            </div>
+          </div>
+
+          <div class="reviewCard">
+            <img class="review__img" src="./images/covers/poster20.jpg" alt="cover"/>
+            <div class="reviewContent">
+              <h3 class="reviewTitle">The cat returns</h3>
+              <p class="review__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="reviewBtn">
+                SEE MORE <img class="icon direct__arrow" src="./images/icons/direct-arrow.png" alt="see more..."/>
+              </button>
+            </div>
+          </div>
+
+          <div class="reviewCard">
+            <img class="review__img" src="./images/covers/poster21.jpg" alt="cover"/>
+            <div class="reviewContent">
+              <h3 class="reviewTitle">Ocean waves</h3>
+              <p class="review__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="reviewBtn">
+                SEE MORE <img class="icon direct__arrow" src="./images/icons/direct-arrow.png" alt="see more..."/>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footerFeatures">
+        <a class="footer__link">Features</a>
+        <a class="footer__link">Plans & Pricing</a>
+        <a class="footer__link">News & Blogs</a>
+        <a class="footer__link">Careers</a>
+        <a class="footer__link">About Us</a>
+        <a class="footer__link">Terms</a>
+        <a class="footer__link">Privacy</a>
+        <a class="footer__link">Cookies</a>
+      </div>
+
+      <div class="footerFeatures">
+        Copyright <img class="small__icon copyright__img" src="./images/icons/copyright.png" alt="copyright"/>
+        All rights reserved
+      </div>
+    </footer>
+  </main>
+
+  <script src="./js/javascript.js"></script>
+</body>
+</html>
